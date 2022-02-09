@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+header{
+    height: 8%;
+    width: auto;
+    background: cyan;
+    border:1px solid black;
+
+}
+header a{
+    height:7%;
+    /* font-size: 1.5rem; */
+    padding-left: 2%;
+}
+header a:link{
+    text-decoration: none;
+}
+header input{
+    margin-left: 68%;
+    margin-top: 0.5%;
+}
+#mealheading{
+    text-align:center;
+}
+#showing-results{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    transition:0.5s ease-in;
+}
+.card:hover{
+    box-shadow: 5px 10px 8px 5px grey;
+    transform: scale(1.2);
+}
+/* favourite css */
+#display-meals{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+#favourite-meals-heading{
+    text-align:center;
+    margin-bottom: 2%;
+}
+
+/* detailsPage */
+#container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#detailsContainer{
+    transition:0.5s ease-in;
+}
+#detailsContainer:hover{
+    box-shadow: 5px 10px 8px 5px grey;
+    transform: scale(1.1);
+
+} 
+
+
